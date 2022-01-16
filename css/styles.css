@@ -12,32 +12,36 @@ body {
 	text-align: left;
 	min-width: 760px;
 	background-color: #fff;
-	}
+}
 
-div {
+.business-card {
   width: 340px;
   height: 180px;
   line-height: 25px;
   text-align: center;
-  
+
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  
+
   margin: auto;
+}
+
+.headers {
+  text-align: center;
 }
 
 span {
   display: inline-block;
   vertical-align: middle;
-  line-height: normal;      
+  line-height: normal;
 }
 
 a {
 	text-decoration: none;
-	}
+}
 
 a:link {
 	text-decoration: none;
@@ -47,7 +51,7 @@ a:link {
 	border-style: none none solid none;
 	padding: 3px 0px 2px 0px;
 	background-color: inherit;
-	}
+}
 
 a:visited {
 	color: #4a525f;
@@ -56,15 +60,15 @@ a:visited {
 	border-style: none none dotted none;
 	padding: 3px 0px 2px 0px;
 	background-color: inherit;
-	}
+}
 
 a:hover {
 	color: white;
 	text-decoration: none;
 	background-color: #4a525f;
 	border-color: #4a525f;
-	}
+}
 
 a em {
 	padding-bottom: 2px;
-	}
+}
